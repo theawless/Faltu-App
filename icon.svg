@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="240" height="240">
-    <path d="M 90 0 H 140 V 20 H 90" fill="#E94235" />
-    <path d="M 40 20 H 60 V 40 H 40" fill="#2684FC" />
+    <path d="M 100 0 H 140 V 20 H 100" fill="#E94235" />
+    <path d="M 40 40 Q 40 20 60 20" fill="#2684FC" />
+    <path d="M 60 20 V 40 H 40" fill="#2684FC" />
     <path d="M 60 20 H 180 V 40 H 60" fill="#2684FC" />
-    <path d="M 180 20 H 200 V 40 H 180" fill="#2684FC" />
+    <path d="M 180 20 Q 200 20 200 40" fill="#2684FC" />
+    <path d="M 180 20 V 40 H 200" fill="#2684FC" />
     <path d="M 40 60 V 80 H 80" fill="#00AC47" />
     <path d="M 40 80 H 80 V 200 H 40" fill="#00AC47" />
     <path d="M 40 60 H 80 V 80" fill="#FFBA00" />
@@ -11,7 +13,10 @@
     <path d="M 160 140 V 120 H 200" fill="#FFBA00" />
     <path d="M 200 120 V 140 H 160" fill="#E94235" />
     <path d="M 160 140 H 200 V 200 H 160" fill="#E94235" />
-    <path d="M 40 200 H 80 V 240 H 40" fill="#00832d" />
-    <path d="M 80 200 H 160 V 240 H 80" fill="#0066DA" />
-    <path d="M 160 200 H 200 V 240 H 160" fill="#E94235" />
+    <path d="M 40 200 H 80 V 240" fill="#0066da" />
+    <path d="M 40 200 Q 40 240 80 240" fill="#0066da" />
+    <path d="M 80 200 H 160 V 240 H 80" fill="#2684FC" />
+    <path d="M 160 240 V 200 H 200" fill="#E94235" />
+    <path d="M 160 240 Q 200 240 200 200" fill="#E94235" />
+    <!--<path d="M 110 100 H 130 V 200 H 110" fill="#00832d" />-->
 </svg>

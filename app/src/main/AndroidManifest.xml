@@ -7,7 +7,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Faltu App"
         android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
-        <activity android:name=".UninstallActivity">
+        <activity
+            android:name=".UninstallActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

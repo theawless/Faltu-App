@@ -1,0 +1,69 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.225"
+        android:scaleY="0.225"
+        android:translateX="27"
+        android:translateY="27">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M100,0H140V20H100" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M40,40Q40,20 60,20" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M60,20V40H40" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M60,20H180V40H60" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M180,20Q200,20 200,40" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M180,20V40H200" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M40,60V80H80" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M40,80H80V200H40" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M40,60H80V80" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M80,60H160V80H80" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M160,60H200V120H160" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M160,140V120H200" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M200,120V140H160" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M160,140H200V200H160" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M40,200H80V240" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M40,200Q40,240 80,240" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M80,200H160V240H80" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M160,240V200H200" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M160,240Q200,240 200,200" />
+    </group>
+</vector>

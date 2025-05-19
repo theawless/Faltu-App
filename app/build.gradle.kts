@@ -4,27 +4,30 @@ plugins {
 }
 
 android {
-    compileSdkVersion(30)
-    buildToolsVersion("30.0.2")
+    namespace = "com.gobbledygook.theawless.faltuapp"
+    compileSdk = 35
+
     defaultConfig {
-        applicationId("com.gobbledygook.theawless.faltuapp")
-        minSdkVersion(16)
-        targetSdkVersion(30)
-        versionCode(1)
-        versionName("1.0")
+        applicationId = "com.gobbledygook.theawless.faltuapp"
+        minSdk = 21
+        targetSdk = 35
+        versionCode = 10
+        versionName = "1.0"
     }
 
     buildTypes {
-        getByName("release") {
+        release {
             isMinifyEnabled = true
             isShrinkResources = true
         }
     }
+
     compileOptions {
-        sourceCompatibility(JavaVersion.VERSION_1_8)
-        targetCompatibility(JavaVersion.VERSION_1_8)
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
+
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }

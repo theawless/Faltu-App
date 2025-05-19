@@ -1,6 +1,6 @@
 ## Faltu App
 
-<img src="icon.svg" width="128" height="128"/>
+<img src="icon.svg" width="128" height="128" alt="trash can logo"/>
 
 *Just the most useless app in the world!*
 
